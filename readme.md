@@ -24,12 +24,13 @@ Installieren Sie die auf Ihrem Arbeitsgerät.
 
 - Auch wenn Spark verbreiteter ist, habe ich mich für Flink entschieden, da es neben Batchverarbeitung auch echtes Streaming unterstützt (Spark emuliert es nur durch kleine Batches).
 - ![screenshot flink](Flink.PNG "Screenshot Flink")
-- Ich verwende die IDE IntelliJ mit maven. ![screenshot flink IntelliJ](IntelliJ_Flink.PNG "Screenshot IntelliJ Flink")
+- Ich verwende die IDE  IntelliJ IDEA 2016.1.2 den Paketen jflink-core und flink-java in der Version 1.0.3. Die Pakete habe ich mit einer maven-Dependency eingebunden. ![screenshot flink IntelliJ](IntelliJ_Flink.PNG "Screenshot IntelliJ Flink")
 
 ## Assignment 3: Big Data in Ihrem Umfeld
 Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
 
-- flink-test-1.0-SNAPSHOT.jar
+- [flink-test-1.0-SNAPSHOT.jar](flink-test-1.0-SNAPSHOT.jar)
+- den Source-Code finden sie im Verzeichnis flink-test
 - ![screenshot flink job](Flink_JobDone.PNG "Screenshot Flink Job")
 
 # Data Science
@@ -38,8 +39,9 @@ Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden 
 Sie haben in der LVA zwei Frameworks kennengelernt (R und Python). Nennen Sie zwei weitere
 Technologien, um Daten zu analysieren (müssen nicht open source sein)
 
-Go - von Google
-Matlab - von Mathworks, kostenpflichtig
+1. Go - von Google
+2. Julia
+3. Matlab - von Mathworks, kostenpflichtig
 
 ### 1.2
 Sie bekommen den Auftrag, sich mit einer Data Science Technologie zu arbeiten. Nennen Sie
@@ -55,6 +57,7 @@ Entscheiden Sie sich für eine Data Science Plattform. R oder Python
 Installieren Sie die auf Ihrem Arbeitsgerät.
 
 1. Ich habe mich für Python entschieden, da ich bereits Erfahrung damit habe und es mir von der Syntax sympathischer ist.
+2. Den Source-Code finden sie im Verzeichnis python-test.
 2. ![screenshot datascience](DataScience_Technologie.PNG "Screenshot Data Science Technologie")
 3. Als Toolchain benutze ich IntelliJ IDEA 2016.1.2 mit dem Python Plugin mit Python 3.4.0 SDK.
 
