@@ -5,8 +5,8 @@ Schauen Sie sich in Ihrem Umfeld um. FH Technikum oder Ihr Job. Nennen Sie minde
 Beispiel für Daten, die schemalos (unstrukturiert) sind und mindestens ein Bespiel für Daten, die
 strukturiert (schematisch) sind.
 
-strukturlos: Logfiles meines Webservers
-strukturiert: Daten in der Datenbank des dazugehörigen CMS
+- strukturlos: Logfiles meines Webservers
+- strukturiert: Daten in der relationalen Datenbank des dazugehörigen CMS
 
 ### 1.2
 Nennen Sie ein Beispiel für Daten in Ihrem Umfeld, die gestreamt verarbeitet werden, nennen Sie ein
@@ -23,15 +23,14 @@ Entscheiden Sie sich für eine Data Engineering Plattform. Apache Flink oder Apa
 Installieren Sie die auf Ihrem Arbeitsgerät.
 
 - Auch wenn Spark verbreiteter ist, habe ich mich für Flink entschieden, da es neben Batchverarbeitung auch echtes Streaming unterstützt (Spark emuliert es nur durch kleine Batches).
-- Flink.PNG, Flink_JobDone.PNG
-- Ich verwende die IDE IntelliJ mit maven. IntelliJ_Flink.PNG
+- ![screenshot flink](Flink.PNG "Screenshot Flink")
+- Ich verwende die IDE IntelliJ mit maven. ![screenshot flink IntelliJ](IntelliJ_Flink.PNG "Screenshot IntelliJ Flink")
 
 ## Assignment 3: Big Data in Ihrem Umfeld
 Schreiben Sie ein simples Program mit dem Framework (z.B. Helloworld) und laden Sie es hoch.
 
 - flink-test-1.0-SNAPSHOT.jar
-- Flink_JobDone.PNG
-
+- ![screenshot flink job](Flink_JobDone.PNG "Screenshot Flink Job")
 
 # Data Science
 ## Assignment 1: Technologien
@@ -56,7 +55,7 @@ Entscheiden Sie sich für eine Data Science Plattform. R oder Python
 Installieren Sie die auf Ihrem Arbeitsgerät.
 
 1. Ich habe mich für Python entschieden, da ich bereits Erfahrung damit habe und es mir von der Syntax sympathischer ist.
-2. ![screenshot datascience](./DataScience_Technologie.PNG "Screenshot Data Science Technologie")
+2. ![screenshot datascience](DataScience_Technologie.PNG "Screenshot Data Science Technologie")
 3. Als Toolchain benutze ich IntelliJ IDEA 2016.1.2 mit dem Python Plugin mit Python 3.4.0 SDK.
 
 ## Assignment 3: Big Science
