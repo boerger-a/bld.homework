@@ -70,4 +70,7 @@ Nennen Sie ein Beispiel aus ihrem Umfeld, wo Sie mit dem Algorithmus zu tun habe
 Beispiel sein, wie: Wenn Sie bei Amazon einkaufen. Wenn Sie von einem Marketinginstitut angerufen
 werden, etc.
 
-todo
+- Classification: Einteilung in gegebene Klassen. zB: #Hashtags auf Twitter klassifizieren den Tweet in einen Stream.
+- Regression: Automatische Einteilung in vorher nicht gegebene Klassen. zB: Immobilienmarkt - Vorschlag eine Preises aufgrund von Eigenschaften des Objektes. (Lage, Größe, Baujahr,...)
+- Clustering: Einteilung aufgrund von ähnlichen Merkmalen. zB: Einkauf bei Amazon: welche Produkte könnten sie noch interessieren?
+- Dimensional Reduction: Automatische Reduktion von nicht benötigten/aussagekräftigen Dimensionen. zB: Automatische Erkennung in R von relevanten Dimensionen einer Umfrage.
